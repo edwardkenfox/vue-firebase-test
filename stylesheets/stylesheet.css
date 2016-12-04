@@ -243,3 +243,15 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+#app input {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+}
+
+#app input[type="submit"] {
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
